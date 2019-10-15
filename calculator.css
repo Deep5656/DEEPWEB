@@ -1,0 +1,42 @@
+.button{
+    width:50;
+    height:50;
+    font-size: 25;
+    margin:2;
+    cursor: pointer;
+    color:white;
+    background:linear-gradient(red,black);
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+    border-color:black;
+}
+.button:hover{
+    background:green;
+    color:yellow;
+}
+.button:active{
+    background:pink;
+    color:black;
+}
+.textview{
+    width:227;
+    height:45;
+    padding:5;
+    font-size: 25;
+    background:linear-gradient(red,black);
+    color:white;
+    border-radius:40px;
+    box-shadow: 10px 10px 10px black;
+    border-color:black;
+}
+body{
+   background:linear-gradient(black,skyblue,pink)
+}
+form{
+    position: relative;
+    top:100px;
+}
+table{
+    position:relative;
+    top:100px
+}
