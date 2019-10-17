@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+    height:400px;
+}
+/*global*/
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+.food{
+    background:#e8491d;
+}
+header{
+    background:#354243;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px;
+}
+header li a:hover{
+    color:#e8491d;
+}
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight{
+    color: #e8491d;
+    font-weight: bold;
+}
+footer{
+    padding:20px;
+    color:#ffffff;
+    background:#354243;
+    margin-top:20px;
+    text-align: center;
+    position:sticky;
+    top:0.25rem;
+    
+}
+ul
+{
+	font-style:none;
+	display:flex;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	flex-direction:row-reverse;
+	
+}
+ul li
+{
+	font-weight:bold;
+	font-size:6em;
+	color:#fff;
+	letter-spacing:10px;
+	filter:blur(.5px);
+	opacity:1;
+	transition:5s;
+}
+ul li:hover
+{
+	filter:blur(10px);
+	transition:1s;
+	transform:rotate(360deg) translateY(120px) translateX(-120px);
+	color:#e8491d;	
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-bottom: 1px solid rgb(100,100,100,0.9);
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #e8491d;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.logo{
+  height: 40px;
+  border-radius: 50%;
+  
+  
+}
+.shift{
+  position: relative;
+  right:330px;
+}
+section{
+    background: #354243;
+    border-bottom: #e8491d 3px solid;
+}
+.audio{
+    background:#354243;
+    width:100%;
+    padding:10px;
+    margin:0px;
+}
+.side{
+    float:right;
+}
+.music{
+    height:20%;
+    position: relative;
+    left:25%;
+}

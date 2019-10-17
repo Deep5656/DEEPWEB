@@ -14,7 +14,7 @@ body{
     overflow: hidden;
 }
 .food{
-    background:red;
+    background:#e8491d;
 }
 ul{
     margin: 0;
@@ -52,7 +52,7 @@ header li{
     padding:0 20px 0 20px;
 }
 header li a:hover{
-    color:red;
+    color:#e8491d;
 }
 header #branding{
     float:left;
@@ -92,7 +92,7 @@ header .highlight{
 #newsletter{
     padding:15px;
     color:#ffffff;
-    background:#5F956B;
+    background:#354243;
 }
 #newsletter h1{
     float:left;
@@ -118,7 +118,7 @@ header .highlight{
 footer{
     padding:20px;
     color:#ffffff;
-    background:#5F956B;
+    background:#354243;
     margin-top:20px;
     text-align: center;
     position:sticky;
@@ -127,7 +127,7 @@ footer{
 }
 #aman{
     width:50%;
-    background:orange;
+    background:#e8491d;
 }
 #float{
     float:left;
@@ -335,25 +335,7 @@ footer{
 	  top:50px;
 	}
   }
- .audio{
-  background:linear-gradient(#062844,#005493);
-   height: 150%;
-   width:100%;
- }
- .audio-tag{
-   height: 20%;
-   width: 100%;
-   background:linear-gradient(#2E9598,#202430);
- }
- .audio-container{
-  height: 8%;
-  width: 75%;
-  background:#093657;
-  position:absolute;
-  top:21%;
-  left:15%;
-
- }
+ 
  
  .sidenav {
   height: 100%;
