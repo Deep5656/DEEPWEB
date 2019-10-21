@@ -41,10 +41,12 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+    padding:0;
+    letter-spacing: 3px;
 }
 header ul{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 header li{
     float: left;
@@ -123,6 +125,7 @@ footer{
     text-align: center;
     position:sticky;
     top:0.25rem;
+     border-bottom: #e8491d 3px solid;
     
 }
 #aman{
@@ -374,6 +377,66 @@ footer{
 .logo{
   height: 40px;
   border-radius: 50%;
-  
-  
 }
+.profile{
+  height:400px;
+  width:100%;
+  background:#aaa;
+ 
+}
+#social-media{
+  height:100px;
+  width:9%;
+  background:#3b5998;
+  border-bottom: white 3px solid;
+}
+#social-media1{
+  height:100px;
+  width:9%;
+  background: #211f1f;
+  border-bottom: white 3px solid;
+}
+#social-media2{ #211f1f
+  height:100px;
+  width:9%;
+  background:#1DA1F2;
+  border-bottom: white 3px solid;
+}
+#social-media3{
+  height:100px;
+  width:9%;
+  background: #f80759;
+  border-bottom: white 3px solid;
+}
+
+#social-media:hover{
+  width:18%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  transition: 0.2s;
+}
+#social-media1:hover{
+  width:18%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  transition: 0.2s;
+}
+#social-media2:hover{
+  width:18%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  transition: 0.2s;
+}
+#social-media3:hover{
+  width:18%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  transition: 0.2s;
+}
+#locate{
+  position: relative;
+  width: 60%;
+  left:20%;
+  top:-380px;
+}
+

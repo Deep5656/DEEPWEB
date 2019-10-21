@@ -11,9 +11,9 @@
         <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <li><a  href="Home.html">home</a></li>
-                        <li><a href="Project.html">projects</a></li>
-                        <li><a href="Audio.html">audios</a></li>
-                        <li><a href="Vedio.html">videos</a></li>
+                        <li><a href="Project.html">portfolio</a></li>
+                        <li><a href="audio.html" onclick="alert('For Better Experience Use Headphones')">audio</a></li>
+                        
                         <li><a href="About.html">about</a></li>
               </div>
               
@@ -40,7 +40,7 @@
     
 
            <aside class="side">
-               <h2 style=color:yellow>Playlist created by ... <span style=color:#e8491d>Deepanshu Katiyar</span></h2>
+               <h2 style=color:yellow>Playlist created by.. &hearts; <span style=color:#e8491d>Deepanshu Katiyar &hearts;</span></h2>
            </aside>
         </div>
     </header>
@@ -60,26 +60,104 @@
     </ul>
        </div>
     
-    </section>
-   <section>
-    <audio class="audio"   controls loop title="FRIENDS">
-        <source src="Marshmello & Anne-Marie - Friends (spankradio.cz).mp3" type="audio/mpeg">
-    </audio>
-    <audio class="audio" controls loop title="AASHAAYEN">
-        <source src="01 - Aashaayen(MyMp3SongCom).mp3" type="audio/mpeg">
-    </audio>
-    <audio class="audio" controls loop title="AASHAAYEN">
-        <source src="01 - Aashaayen(MyMp3SongCom).mp3" type="audio/mpeg">
-    </audio>
-    <audio class="audio" controls loop title="AASHAAYEN">
-        <source src="01 - Aashaayen(MyMp3SongCom).mp3" type="audio/mpeg">
-    </audio>
-    <audio class="audio" controls loop title="AASHAAYEN">
-        <source src="01 - Aashaayen(MyMp3SongCom).mp3" type="audio/mpeg">
-    </audio>
-    <hr solid red>
+<hr>
+ 
+    <div id="btnContainer">
+        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <a style=text-decoration:none target="blank" href="Burn Out.mp3"><h2>Burn Out</h2></a>
+            <p>Martin Garrix,Justin Mylo,Dewain Whitmore</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+           <a style=text-decoration:none target="blank" href="High On Life.mp3"><h2>High On Life</h2></a>
+            <p>Martin Garrix,Bonn</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column" style="background-color:#ccc;">
+           <a style=text-decoration:none target="blank" href="I Dont Wanna Live Forever.mp3"><h2>I Dont Wanna Live Forever</h2></a>
+            <p>ZAYN,Taylor Swift</p>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+            <a style=text-decoration:none target="blank" href="Whatever it take.mp3"><h2>Whatever It Take</h2></a>
+            <p>Imagine Dragons</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <a style=text-decoration:none target="blank" href="Who Do You Love.mp3">
+                <h2>Who DO You Love</h2>
+            </a>
+            <p>The Chainsmokers,5 Seconds of Summer</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <a style=text-decoration:none target="blank" href="Treat You Better.mp3">
+                <h2>Treat You Better</h2>
+            </a>
+            <p>Shawn Mendes</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column" style="background-color:#ccc;">
+            <a style=text-decoration:none target="blank" href="More Than You Know.mp3">
+                <h2>More Than You know</h2>
+            </a>
+            <p>Axwell /\ Ingrosso,Axwell,Sebastia..</p>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+            <a style=text-decoration:none target="blank" href="By Your Side.mp3">
+                <h2>By Your Side</h2>
+            </a>
+            <p>Jonas Blue,RAYE</p>
+        </div>
+    </div>
+
+    
+
+    <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a loop variable
+        var i;
+
+        // List View
+        function listView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "100%";
+            }
+        }
+
+        // Grid View
+        function gridView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "50%";
+            }
+        }
+
+        /* Optional: Add active class to the current button (highlight it) */
+        var container = document.getElementById("btnContainer");
+        var btns = container.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+
+
+<hr>
     <footer>
-        <p>Deep Web,copyright &copy;2019</p>
+        <h1><span style=color:#e8491d>Deep</span> Web,<span style=color:yellow>copyright &copy;</span> <span style=color:#e8491d>2019</span></h1>
     </footer>
 </section>
    
