@@ -379,9 +379,11 @@ footer{
   border-radius: 50%;
 }
 .profile{
-  height:400px;
+  height:410px;
   width:100%;
   background:#aaa;
+  background-size:100%;
+
  
 }
 #social-media{
@@ -440,3 +442,84 @@ footer{
   top:-380px;
 }
 
+@media(max-width:768px){
+  header #branding,
+  header nav,
+  #newsletter h1,
+  #newsletter form{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  header nav li{
+    display: none;
+  }
+ 
+  #newsletter button{
+    display: block;
+    width:100%;
+  }
+  #newsletter form input[type="email"]{
+    width:100%;
+    margin-bottom:5px;
+  }
+  #showcase{
+    min-height: 500px;
+    background: url('hood-azalaka.jpg');
+   background-size: 100%;
+    
+    text-align: center;
+    color:white;
+}
+#showcase h1{
+    margin-top: 10px;
+    font-size: 55px;
+    margin-bottom:10px;
+}
+#showcase p{
+    font-size: 20px;
+    margin-top: 300px;
+}
+.profile{
+  height:410px;
+  width:250%;
+  background:#aaa;
+  background-size:100%;
+
+}
+
+.room{
+	height:10%;
+	width:30%;
+	background: #f39c12 ;
+	position:relative;
+	top:10%;
+	left:5%;
+	line-height:32px;
+	text-indent:18px;
+	margin:0px;
+	transform:scale(0.95);
+	 transition:.5s;
+	border:4px solid white;
+	float: none;
+}
+#ball{
+  display: none;
+}
+#ball-1{
+  display: none;
+}
+#ball-2{
+  display:none;
+}
+#ball-3{
+  display: none;
+}
+
+}
+#about{
+  height: 100%;
+  width: 100%;
+  background: #818181;
+}
