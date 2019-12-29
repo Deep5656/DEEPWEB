@@ -388,49 +388,49 @@ footer{
 }
 #social-media{
   height:100px;
-  width:9%;
+  width:20%;
   background:#3b5998;
   border-bottom: white 3px solid;
 }
 #social-media1{
   height:100px;
-  width:9%;
+  width:20%;
   background: #211f1f;
   border-bottom: white 3px solid;
 }
 #social-media2{ #211f1f
   height:100px;
-  width:9%;
+  width:20%;
   background:#1DA1F2;
   border-bottom: white 3px solid;
 }
 #social-media3{
   height:100px;
-  width:9%;
+  width:20%;
   background: #f80759;
   border-bottom: white 3px solid;
 }
 
 #social-media:hover{
-  width:18%;
+  width:30%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
 }
 #social-media1:hover{
-  width:18%;
+  width:30%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
 }
 #social-media2:hover{
-  width:18%;
+  width:30%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
 }
 #social-media3:hover{
-  width:18%;
+  width:30%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
@@ -482,7 +482,7 @@ footer{
 }
 .profile{
   height:410px;
-  width:290%;
+  width:100%;
   background:#aaa;
   background-size:100%;
 
