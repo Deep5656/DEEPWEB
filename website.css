@@ -388,49 +388,49 @@ footer{
 }
 #social-media{
   height:100px;
-  width:25%;
+  width:9%;
   background:#3b5998;
   border-bottom: white 3px solid;
 }
 #social-media1{
   height:100px;
-  width:25%;
+  width:9%;
   background: #211f1f;
   border-bottom: white 3px solid;
 }
 #social-media2{ #211f1f
   height:100px;
-  width:25%;
+  width:9%;
   background:#1DA1F2;
   border-bottom: white 3px solid;
 }
 #social-media3{
   height:100px;
-  width:25%;
+  width:9%;
   background: #f80759;
   border-bottom: white 3px solid;
 }
 
 #social-media:hover{
-  width:35%;
+  width:18%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
 }
 #social-media1:hover{
-  width:35%;
+  width:18%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
 }
 #social-media2:hover{
-  width:35%;
+  width:18%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
 }
 #social-media3:hover{
-  width:35%;
+  width:18%;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   transition: 0.2s;
