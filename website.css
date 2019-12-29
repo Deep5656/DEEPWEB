@@ -468,7 +468,6 @@ footer{
     min-height: 550px;
     background: url('hood-azalaka.jpg');
    background-size: 100%;
-    
     text-align: center;
     color:white;
 }
@@ -483,7 +482,7 @@ footer{
 }
 .profile{
   height:410px;
-  width:250%;
+  width:270%;
   background:#aaa;
   background-size:100%;
 
