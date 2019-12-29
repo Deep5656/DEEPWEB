@@ -515,8 +515,37 @@ footer{
 #ball-3{
   display: none;
 }
+#social-media{
+  height:100px;
+  width:20%;
+  background:#3b5998;
+  border-bottom: white 3px solid;
+}
+#social-media1{
+  height:100px;
+  width:30%;
+  background: #211f1f;
+  border-bottom: white 3px solid;
+}
+#social-media2{ #211f1f
+  height:100px;
+  width:20%;
+  background:#1DA1F2;
+  border-bottom: white 3px solid;
+}
+#social-media3{
+  height:100px;
+  width:20%;
+  background: #f80759;
+  border-bottom: white 3px solid;
+}
+
 
 }
+
+
+
+
 #about{
   height: 100%;
   width: 100%;
