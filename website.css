@@ -4,7 +4,7 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color:#f4f4f4;
+    background-color:#989393;
     height:400px;
 }
 /*global*/
@@ -570,8 +570,3 @@ footer{
 
 
 
-#about{
-  height: 100%;
-  width: 100%;
-  background: #818181;
-}
