@@ -75,6 +75,7 @@ header .highlight{
 footer{
     padding:20px;
     height: 330px;
+    width: 100%;
     color:#ffffff;
     background:#354243;
     margin-top:20px;
@@ -231,15 +232,16 @@ footer{
   position: relative;
   top: 400%;
 }
+
 footer{
     padding:20px;
-    height: 65px;
     color:#ffffff;
+    width: 100%;
     background:#354243;
     margin-top:20px;
     text-align: center;
-    position: relative;
-    top: 10%;
+    position:sticky;
+    top:0.25rem;
      border-bottom: #e8491d 3px solid;
     
 }
