@@ -220,15 +220,15 @@ footer{
   
 }
 #para{
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   font-family: 'Merienda', cursive;
 }
 #new-box{
   background:radial-gradient(#354243,#111);
   height:90%;
-  width: 92%;
-  margin: 25px;
+  width: 82%;
+  margin: 35px;
   border-radius: 30px;
   position: relative;
   top: 400%;
