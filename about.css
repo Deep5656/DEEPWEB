@@ -201,7 +201,7 @@ footer{
  text-align: center;
  position: relative;
  top:10px;
- left: 20%;
+ left: 25%;
  
 }
 #photo{
@@ -210,7 +210,7 @@ footer{
 }
 #boxing{
   height: 94%;
-  width: 70%;
+  width: 75%;
   background:#354243;
   margin: 30px;
   padding: 20px;
@@ -229,7 +229,7 @@ footer{
 #new-box{
   background:radial-gradient(#354243,#111);
   height:90%;
-  width: 82%;
+  width: 86%;
   margin: 35px;
   border-radius: 30px;
   position: relative;
