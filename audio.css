@@ -198,15 +198,15 @@ section{
 	       letter-spacing:10px;
 	       filter:blur(.5px);
 	       opacity:1;
-	
        }
+       
         }
         #music{
             height: 35px;
-            width: 25%;
+            width: 55%;
             background: #e8491d;
             position: relative;
-            left: 35%;
+            left: 20%;
             margin: 20px;
         }
         #writting{
