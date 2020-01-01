@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
-    line-height: 1.5;
+    background: url('wall.jpg');
     padding: 0;
     margin: 0;
     background-color:#989393;
@@ -78,7 +78,7 @@ header .highlight{
 footer{
     padding:20px;
     height: 330px;
-    width: 108%;
+    width: 109%;
     color:#ffffff;
     background:#354243;
     margin-top:20px;
@@ -266,7 +266,7 @@ header{
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
-    
+    background: url('wall.jpg');
     padding: 0;
     margin: 0;
     background-color:#989393;
