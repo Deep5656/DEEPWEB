@@ -203,10 +203,10 @@ section{
         }
         #music{
             height: 35px;
-            width: 65%;
+            width: 85%;
             background: #e8491d;
             position: relative;
-            left: 20%;
+            left: 5%;
             margin: 20px;
         }
         #writting{
