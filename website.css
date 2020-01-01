@@ -382,7 +382,9 @@ footer{
   height:410px;
   width:100%;
   background:#aaa;
-  background-size:100%;
+  background:url('2020.jpg');
+  background: cover;
+  background-size:50%;
 
  
 }
@@ -484,9 +486,8 @@ footer{
   height:410px;
   width:100%;
   background:#aaa;
-  background-size:100%;
-
-}
+  background:url('2020.jpg');
+  background-size:110%;}
 
 .room{
 	height:10%;

@@ -100,7 +100,7 @@ footer{
  border-radius: 30px;
  text-align: center;
  position: relative;
- top:10px;
+ top:50px;
  left: 77%;
 }
 #photo{
@@ -108,7 +108,7 @@ footer{
   width: 100%;
 }
 #boxing{
-  height: 98%;
+  height: 120%;
   width: 60%;
   background:#354243;
   position: relative;
@@ -120,7 +120,7 @@ footer{
   background:radial-gradient(#354243,#111);
 }
 #para{
-  font-size: 25px;
+  font-size: 22px;
   color: white;
   font-family: 'Merienda', cursive;
 }
@@ -245,7 +245,7 @@ footer{
     padding:20px;
     color:#ffffff;
     width: 100%;
-    height:100px ;
+    height:150px ;
     background:#354243;
     margin-top:20px;
     text-align: center;
