@@ -108,14 +108,14 @@ footer{
   width: 100%;
 }
 #boxing{
-  height: 94%;
+  height: 98%;
   width: 60%;
   background:#354243;
   position: relative;
   top: -425px;
   left: 10px;
-  margin: 20px;
-  padding: 20px;
+  margin: 15px;
+  padding: 15px;
   border-radius: 30px;
   background:radial-gradient(#354243,#111);
 }
@@ -127,7 +127,10 @@ footer{
 #new-box{
   background:radial-gradient(#354243,#111);
   height:90%;
-  width: 107%;
+  width: 100%;
+  margin: 35px;
+  padding: 35px;
+  color: #ffffff;
   position: relative;
   top:-400px;
   margin: 25px;
@@ -222,15 +225,17 @@ footer{
   
 }
 #para{
-  font-size: 20px;
+  font-size: 10px;
   color: white;
   font-family: 'Merienda', cursive;
 }
 #new-box{
   background:radial-gradient(#354243,#111);
   height:90%;
-  width: 86%;
+  width: 75%;
   margin: 35px;
+  padding: 25px;
+  color: #ffffff;
   border-radius: 30px;
   position: relative;
   top: 400%;
