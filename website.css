@@ -569,6 +569,17 @@ footer{
 
 
 }
+#name{
+  background: #e8491d;
+  width: 50%;
+  height: 45px;
+  position: relative;
+  left: 25%;
+}
+#writting{
+  font-size: 30px;
+  color: aliceblue;
+}
 
 
 

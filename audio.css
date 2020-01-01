@@ -201,3 +201,15 @@ section{
 	
        }
         }
+        #music{
+            height: 35px;
+            width: 25%;
+            background: #e8491d;
+            position: relative;
+            left: 35%;
+            margin: 20px;
+        }
+        #writting{
+  font-size: 20px;
+  color: aliceblue;
+}
