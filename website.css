@@ -382,14 +382,12 @@ footer{
   height:410px;
   width:100%;
   background:#aaa;
-  background:url('govind.jpg');
+  background:url('messi\ .jpg');
   background: cover;
   background-position:center ;
-  background-size:20%;
-
-
- 
+  background-size:34%; 
 }
+
 #social-media{
   height:100px;
   width:9%;
@@ -488,8 +486,10 @@ footer{
   height:410px;
   width:100%;
   background:#aaa;
-  background:url('govind.jpg');
-  background-size:55%;}
+  background:url('messi\ .jpg');
+   background: cover;
+  background-position:center ;
+  background-size:98%;}
 
 .room{
 	height:10%;
