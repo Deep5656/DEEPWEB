@@ -489,7 +489,7 @@ footer{
   background:url('messi\ .jpg');
    background: cover;
   background-position:center ;
-  background-size:98%;}
+  background-size:100%;}
 
 .room{
 	height:10%;
@@ -576,10 +576,13 @@ footer{
   text-decoration: none;
  
 }
+#name:hover{
+  background: #3b5998;
+}
 #writting{
   font-size: 30px;
   color: aliceblue;
-  text-decoration: none;
+  
 }
 
 
