@@ -592,6 +592,7 @@ footer{
   position: relative;
   top: ;
   color: whitesmoke;
+  text-decoration: none;
 }
 .feedback:hover{
   background:#3b5998;
