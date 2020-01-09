@@ -99,15 +99,12 @@ header .highlight{
 #newsletter h1{
     float:left;
 }
-#newsletter form{
-    float:right;
-    margin-top: 17px;
+#newsletter button{
+  float:right;
+  padding: 10px;
+  margin-top: 15px;
 }
-#newsletter input[type="email"]{
-    padding:4px;
-    height:25px;
-    width:250px;
-}
+
 #move{
     float:right;
     width:60%;
@@ -572,7 +569,7 @@ footer{
 #name{
   background: #e8491d;
   width: 100%;
-  height: 45px;
+  height: px;
   text-decoration: none;
  
 }
@@ -599,8 +596,7 @@ footer{
   .feedback{
   background:#e8491d;
   border: none;
-  height: 25px;
-  width: 5px;
+ 
   color: whitesmoke;
 }
 }
