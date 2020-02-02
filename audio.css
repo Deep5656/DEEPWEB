@@ -4,7 +4,13 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color:#989393;
+     background: linear-gradient(
+      90deg,
+       #ffd89b,
+       #354243,
+       #211f1f,
+       #141e30
+    );
     height:400px;
 }
 /*global*/
