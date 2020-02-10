@@ -215,6 +215,9 @@ section{
             left: 5%;
             margin: 20px;
         }
+        #music:hover{
+            background: #1DB954;
+        }
         #writting{
   font-size: 15px;
   color: aliceblue;
