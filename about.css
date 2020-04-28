@@ -173,6 +173,9 @@ footer{
 .logo{
   height: 40px;
   border-radius: 50%;
+  position: absolute;
+    top: 32px;
+    left: 105px;
 }
 .profile{
   height:410px;
@@ -273,4 +276,9 @@ body{
     height:400px;
     width: 100%;
 }
+}
+#navbtn{
+  position: absolute;
+  display: inline;
+  top: 10px;
 }

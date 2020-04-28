@@ -124,11 +124,11 @@ footer{
     padding:20px;
     color:#ffffff;
     background:#354243;
-    margin-top:20px;
     text-align: center;
     position:sticky;
     top:0.25rem;
      border-bottom: #e8491d 3px solid;
+     border-top: #e8491d 3px solid;
     
 }
 #aman{
@@ -172,24 +172,28 @@ footer{
     content: justify;
 }
 .room{
-	height:10%;
-	width:15%;
+  display: block;
+  width: 20%;
 	background: #f39c12 ;
-	position:relative;
-	top:10%;
-	left:5%;
 	line-height:32px;
 	text-indent:18px;
-	margin:0px;
+	margin:20px;
 	transform:scale(0.95);
-	 transition:.5s;
+	transition:.5s;
 	border:4px solid white;
 	
 }
 .room:hover{
     
-    width:89%;
+    width:25%;
    
+}
+#boxes{
+  display:flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 25%;
+  /* width: 100%; */
 }
 
 .panty{
@@ -203,144 +207,7 @@ footer{
     width:49%;
     
 }
-#pic{
-    background:url('priyanshu.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height:200%;
-}
-#ball {
-    width: 70px;
-    height: 70px;
-    margin: 50px auto;
-    position: fixed;
-    left: 90%;
-    border-radius: 50%;
-    background: linear-gradient(
-      35deg,
-      red,
-      blue
-    );
-    animation-name: fade;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    
-  }
 
-  @keyframes fade {
-    0%{
-	  top:0px;
-	}
-    50% {
-	  top:500px;
-      
-	  width:90px;
-	  height:50px;
-    }
-	100%
-	{
-	  top:0px;
-	}
-  }
-  #ball-1{
-    width: 70px;
-    height: 70px;
-    margin: 50px auto;
-    position: fixed;
-    left: 70%;
-    border-radius: 50%;
-    background: linear-gradient(
-      35deg,
-      red,
-      blue
-    );
-    animation-name: fade1;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    
-  }
-
-  @keyframes fade1 {
-    0%{
-	  top:50px;
-	}
-    50% {
-	  top:450px;
-      
-	  width:90px;
-	  height:50px;
-    }
-	100%
-	{
-	  top:50px;
-	}
-  }
-  #ball-2{
-    width: 70px;
-    height: 70px;
-    margin: 50px auto;
-    position: fixed;
-    left: 50%;
-    border-radius: 50%;
-    background: linear-gradient(
-      35deg,
-      red,
-      blue
-    );
-    animation-name: fade2;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    
-  }
-
-  @keyframes fade2 {
-    0%{
-	  top:0px;
-	}
-    50% {
-	  top:500px;
-      
-	  width:90px;
-	  height:50px;
-    }
-	100%
-	{
-	  top:0px;
-	}
-  }
-  #ball-3{
-    width: 70px;
-    height: 70px;
-    margin: 50px auto;
-    position: fixed;
-    left: 30%;
-    border-radius: 50%;
-    background: linear-gradient(
-      35deg,
-      red,
-      blue
-    );
-    animation-name: fade3;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    
-  }
-
-  @keyframes fade3 {
-    0%{
-	  top:50px;
-	}
-    50% {
-	  top:450px;
-      
-	  width:90px;
-	  height:50px;
-    }
-	100%
-	{
-	  top:50px;
-	}
-  }
  
  
  .sidenav {
@@ -376,10 +243,14 @@ footer{
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  display: inline;
 }
 .logo{
   height: 40px;
   border-radius: 50%;
+  position: absolute;
+    top: 32px;
+    left: 105px;
 }
 .profile{
   height:410px;
@@ -577,6 +448,7 @@ footer{
   width: 100%;
   height: px;
   text-decoration: none;
+  margin-bottom: 25px;
  
 }
 #name:hover{
@@ -605,5 +477,10 @@ footer{
  
   color: whitesmoke;
 }
+}
+#navbtn{
+  position: absolute;
+  display: inline;
+  top: 10px;
 }
 

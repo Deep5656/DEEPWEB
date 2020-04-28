@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a game of Guessing</title>
+
+</head>
+<style>
+    #heading{
+        text-align: center;
+    }
+    .container{
+        height: 150px;
+        width: 100%;
+        border: 2px solid black;
+    }
+    .para{
+        text-align: center;
+    }
+    .para1{
+        text-align: center;
+    }
+    #form{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #demo{
+        text-align: center;
+        font-size: 30px;
+    }
+    #welcome{
+        text-align: center;
+    }
+    
+</style>
+
+<body>
+    <h3 id="welcome"></h3>
+
+    <h1 id = "heading">GAME OF NUMBER GUESSING</h1>
+    <div class="container">
+    <h3 class="para">Let's play a game of guessing!!</h3>
+    <p class="para1"> NOTE: you have to choose a number Between 1 and 100 if you guessed the right number ,you will won the game. Otherwise i
+        will tell you that your guess is too high or too low </p>
+        <hr>
+        <div class="box">
+        <form id="form">
+           Guess Number: <input type="number" id="input" class="input" placeholder="Enter Your Number">
+            <input type="button" class="input" value="Submit" onclick="guess()">
+        </form>
+        <p id="demo"></p>
+        </div>
+        </div>
+</body>
+<script src="NumberGuessing.js"></script>
+
+</html>

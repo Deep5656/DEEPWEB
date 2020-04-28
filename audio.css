@@ -137,6 +137,9 @@ ul li:hover
 .logo{
   height: 40px;
   border-radius: 50%;
+  position: absolute;
+    top: 32px;
+    left: 105px;
   
   
 }
@@ -221,4 +224,9 @@ section{
         #writting{
   font-size: 15px;
   color: aliceblue;
+}
+#navbtn{
+  position: absolute;
+  display: inline;
+  top: 10px;
 }
