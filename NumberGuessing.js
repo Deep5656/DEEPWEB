@@ -45,11 +45,12 @@ function guess(){
 
 }
 function endGame(){
-    let para = document.createElement('p');
-    let paraTxt = document.createTextNode(`you Gussed the right number ${input.value} and won the game`);
-    para.style.color = "green";
-    let paraGraph = document.getElementById('demo');
-    para.appendChild(paraTxt);
-    paraGraph.appendChild(para);
+     let para = document.createElement('p');
+     let paraTxt = document.createTextNode(`you Gussed the right number ${input.value} and won the game`);
+     para.style.color = "green";
+     let paraGraph = document.getElementById('demo');
+     para.appendChild(paraTxt);
+     paraGraph.appendChild(para);
+    alert(`you Gussed the right number ${input.value} and won the game`);
 
 }

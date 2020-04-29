@@ -1,0 +1,92 @@
+        *{
+            margin:0px;
+            padding: 0px;
+           
+        }
+/*         
+        #parrot{
+             background: url('http://pngimg.com/uploads/parrot/parrot_PNG726.png');
+            background-repeat: no-repeat;
+            background-position-y: 50%;
+            background-position-x: 50%;
+            background-size:80% ;
+            filter: blur(0px);
+        
+        
+            
+            /* transform: translate(100px, 50%); */
+            
+          
+    
+        
+        
+        */
+
+
+        #form { 
+            border: 2px solid black;
+            border-radius: 5px;
+        
+        
+
+        }
+
+        .formbox {
+            margin: 10px;
+            padding: 10px;
+
+        }
+        #heading{
+            text-align: center;
+        }
+
+        .input {
+            display: block;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 10px;
+            
+        }
+           .inputval {
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 8px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 95%;
+            background: transparent;
+            
+
+        }
+        .invalid{
+            border:1px solid red;
+        }
+        #formdiv{
+            color: red;
+            margin: 10px;
+            font-size: 17px;
+        }
+        #formdivset{
+             color: green;
+            margin: 10px;
+            font-size: 17px;
+
+        }
+
+      
+
+        #submit {
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+            width: 25%;
+            border: 2px solid slateblue;
+            border-radius: 8px;
+            background-color: skyblue;
+        }
+        .small{
+           font-size: 20px;
+           margin: 15px;
+           color: red;
+        }
