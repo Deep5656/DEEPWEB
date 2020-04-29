@@ -29,7 +29,7 @@ window.addEventListener('resize',()=>{
     canvas.height = window.innerHeight - 20;
 })
 
-window.addEventListener('click', (e) => {
+window.addEventListener('mouseover', (e) => {
     mouse.x = e.x;
     mouse.y = e.y;
     // console.log(mouse);
