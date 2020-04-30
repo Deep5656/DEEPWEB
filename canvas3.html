@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomBalls</title>
+    <style>
+        canvas {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+
+</body>
+<script>
+    let colorArray = [
+        '#9400D3',
+        '#480082',
+        '#0000FF',
+        '#00FF00',
+        '#FFFF00',
+        '#FF7F00',
+        '#FF0000'
+
+    ];
+    window.addEventListener('resize', () => {
+        canvas.width = window.innerWidth - 30;
+        canvas.height = window.innerHeight - 30;
+    })
+
+    function Circle(x, y, radius, dx, dy) {
+        this.x = x;
+        this.y = y;
+        this.dx = dx;
+        this.dy = dy;
+        this.radius = radius;
+        this.color = colorArray[Math.floor(Math.random() * 7)];
+        this.draw = function () {
+            c.beginPath();
+            c.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+            c.stroke();
+            c.strokeStyle = this.color;
+            c.fill();
+            c.fillStyle = this.color;
+            this.x += this.dx;
+            this.y += this.dy;
+            if (this.x + 20 > innerWidth || this.x - 20 < 0) {
+                this.dx = - this.dx;
+            }
+            if (this.y + 20 > innerHeight || this.y - 20 < 0) {
+                this.dy = - this.dy;
+            }
+        }
+    }
+    //  let newCircle = new Circle(100, 200, 20, 5, 5);
+
+    let circleArray = [];
+    for (let i = 0; i < 100; i++) {
+        let x = Math.random() * innerWidth;
+        let y = Math.random() * innerHeight;
+        let dx = Math.random() * 8;
+        let dy = Math.random() * 8;
+        let radius = Math.random() * 30 + 1;
+        circleArray.push(new Circle(x, y, radius, dx, dy));
+    }
+
+
+    let canvas = document.querySelector('canvas');
+    canvas.width = window.innerWidth -30;
+    canvas.height = window.innerHeight -30;
+    let c = canvas.getContext('2d');
+    let x = Math.random() * innerWidth -50;
+    let y = Math.random() * innerHeight -50;
+    let dx = Math.random() * 8;
+    let dy = Math.random() * 8;
+    let radius = Math.random()*30;
+    function animate() {
+        requestAnimationFrame(animate);
+        // newCircle.draw();
+
+
+        // console.log('deepanshu');
+        c.beginPath();
+        c.clearRect(0,0,innerWidth,innerHeight);
+        c.arc(x, y, radius, 0, Math.PI * 2, false);
+
+        for (let i = 0; i < circleArray.length; i++) {
+            circleArray[i].draw();
+        }
+
+        // newcircle.draw();
+        c.stroke();
+
+        x += dx;
+        y += dy;
+        if (x + 20 > innerWidth || x - 20 < 0) {
+            dx = - dx;
+        }
+        if (y + 20 > innerHeight || y - 20 < 0) {
+            dy = - dy;
+        }
+    }
+    animate();
+
+</script>
+
+</html>

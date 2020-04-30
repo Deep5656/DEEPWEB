@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomBalls</title>
+    <style>
+canvas{
+    border: 2px solid red;
+}
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+    
+</body>
+<script>
+    let canvas = document.querySelector('canvas');
+    canvas.width =window.innerWidth;
+    canvas.height=window.innerHeight;
+    let c =canvas.getContext('2d');
+   let x = 50;
+   let y= 50;
+   let dx = 5;
+   let dy = 5;
+    function animate(){
+        requestAnimationFrame(animate);
+        console.log('deepanshu');
+         c.beginPath();
+        //  c.clearRect(0,0,innerWidth,innerHeight);
+        c.arc(x, y, 20, 0, Math.PI * 2, false);
+        c.stroke();
+        x+=dx;
+        y+=dy;
+        if(x+20>innerWidth||x-20<0){
+            dx = - dx;
+        }
+        if(y+20>innerHeight ||y-20<0){
+            dy = - dy;
+        }
+    }
+    animate();
+
+</script>
+</html>
