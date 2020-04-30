@@ -125,10 +125,11 @@ footer{
     color:#ffffff;
     background:#354243;
     text-align: center;
-    position:sticky;
-    top:0.25rem;
+    /* position:sticky; */
+    /* top:0.25rem; */
      border-bottom: #e8491d 3px solid;
      border-top: #e8491d 3px solid;
+    
     
 }
 #aman{
@@ -367,19 +368,20 @@ footer{
   background-size:110%;}
 
 .room{
-	height:10%;
-	width:35%;
-	background: #f39c12 ;
-	position:relative;
-	top:10%;
-	left:5%;
+  display: block;
+  width: 20%;
+	/* background: #354243; */
 	line-height:32px;
 	text-indent:18px;
-	margin:0px;
+	margin:20px;
 	transform:scale(0.95);
-	 transition:.5s;
-	border:4px solid white;
-	float: none;
+	transition:.5s;
+  border:4px solid white;
+  border-radius: 8px;
+	
+}
+#box-heading{
+  font-size: 10px;
 }
 #ball{
   display: none;
