@@ -1,12 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
-    background: url('wall.jpg');
+    /* background: url('wall.jpg'); */
     padding: 0;
     margin: 0;
     background-color:#989393;
     height:400px;
-    width: 89%;
+    /* width: 89%; */
 }
 /*global*/
 .container{
@@ -170,13 +170,6 @@ footer{
   font-size: 36px;
   margin-left: 50px;
 }
-.logo{
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-    top: 32px;
-    left: 105px;
-}
 .profile{
   height:410px;
   width:100%;
@@ -185,7 +178,7 @@ footer{
 
 }
 
-@media(max-width:768px){
+/* @media(max-width:768px){
   header #branding,
   header nav,
   #newsletter h1,
@@ -276,7 +269,7 @@ body{
     height:400px;
     width: 100%;
 }
-}
+} */
 #navbtn{
   position: absolute;
   display: inline;

@@ -41,6 +41,7 @@ header{
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
+    
 }
 header a{
     color:#ffffff;
@@ -55,7 +56,7 @@ header ul{
     padding:0;
 }
 header li{
-    float: left;
+    /* float:left; */
     display: inline;
     padding:0 20px 0 20px;
 }
@@ -247,13 +248,7 @@ footer{
   margin-left: 50px;
   display: inline;
 }
-.logo{
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-    top: 32px;
-    left: 105px;
-}
+
 .profile{
   height:410px;
   width:100%;
@@ -276,11 +271,11 @@ footer{
   background: #211f1f;
   border-bottom: white 3px solid;
 }
-#social-media2{ #211f1f
+#social-media2{ 
   height:100px;
   width:9%;
   background:#1DA1F2;
-  border-bottom: white 3px solid;
+  border-bottom: 3px solid white;
 }
 #social-media3{
   height:100px;
@@ -407,7 +402,7 @@ footer{
   background: #211f1f;
   border-bottom: white 3px solid;
 }
-#social-media2{ #211f1f
+#social-media2{ 
   height:100px;
   width:27%;
   background:#1DA1F2;
@@ -482,8 +477,6 @@ footer{
 }
 }
 #navbtn{
-  position: absolute;
   display: inline;
-  top: 10px;
 }
 

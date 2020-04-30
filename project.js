@@ -1,12 +1,5 @@
-console.log('deepanshu katiyar');
-let div = document.getElementById('boxes');
-let footer = document.querySelector('footer');
-let divHeight = div.clientHeight;
-let footerPosition = footer.offsetHeight;
-if(2===2){
-    // footerPosition=divHeight;
-    footer.setAttribute('class','footerclass');
-}
-let footerclass = Element.querySelector('.footerclass');
-
-console.log(div,footer,divHeight,footerPosition,);
+let navbtn = document.getElementById('navbtn');
+navbtn.style = 'font-size:30px;cursor:pointer;position:absolute;top:25px';
+let logo = document.querySelector('.logo');
+logo.style = 'height: 40px; border-radius:50%; position: absolute;top: 32px;left: 105px'
+console.log(logo);

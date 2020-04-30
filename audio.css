@@ -134,15 +134,7 @@ ul li:hover
   font-size: 36px;
   margin-left: 50px;
 }
-.logo{
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-    top: 32px;
-    left: 105px;
-  
-  
-}
+
 #shift{
   position: relative;
   right:330px;
