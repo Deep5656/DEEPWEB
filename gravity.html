@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravity</title>
+    <style>
+canvas{
+    background: grey;
+    margin: 0;
+    padding: 0;
+}
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+</body>
+<script>
+let colorArray =[
+    '#2185C5',
+    '#7ECEFD',
+    '#FFF6EF',
+    '#FF7F66'
+]
+
+window.addEventListener('resize',()=>{
+     canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+})
+
+       function balls(x,y,radius,dy,fraction,acceleration) {
+           this.x = x;
+           this.y = y;
+           this.radius = radius;
+           this.dy = dy
+           this.fraction = fraction;
+           this.acceleration = acceleration;
+           this.color = colorArray[Math.floor(Math.random()*4)]; 
+            this.draw = () => {
+                c.beginPath();
+                c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+                c.stroke();
+                c.strokeStyle = 'black';
+                c.fill();
+                c.fillStyle = this.color;
+                this.y += this.dy;
+                if(this.y + this.radius>innerHeight-30){
+                    this.dy = -this.dy*this.fraction;
+                }else{
+                    this.dy+=this.acceleration;
+                }
+                
+            
+
+            }
+        }
+        // let newBall = new balls(200,200,20,1,0.9,0.9);
+        let ballArray =[];
+        for(let i =0; i<500 ;i++){
+            let x = Math.random()*innerWidth;
+            let y = Math.random()*innerHeight-200;
+            let radius = 20;
+            let dy = Math.random()*2;
+            let fraction = 0.9;
+            let acceleration = 0.9;
+            ballArray.push(new balls(x,y,radius,dy,fraction,acceleration));
+        }
+
+
+    let canvas = document.querySelector('canvas');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    let c = canvas.getContext('2d');
+
+
+    let y = 130;
+    let dy = 1;
+    let fraction = 0.9;
+    let acceleration = 0.9;
+    let radius = 20
+    function animate() {
+        requestAnimationFrame(animate);
+        // console.log('this is gravity');
+        //   newBall.draw();
+        c.clearRect(0, 0, innerWidth, innerHeight);
+        // newBall.draw();
+        for(let i =0; i<ballArray.length;i++){
+            ballArray[i].draw();
+        }
+        c.beginPath();
+        c.arc(300, y, radius, 0, Math.PI * 2, false);
+        c.stroke();
+        c.strokeStyle = 'black';
+        c.fill();
+        c.fillStyle = '#7ECEFD';
+        y += dy;
+        if (y + radius > innerHeight-30) {
+            dy = -dy * fraction;
+        }
+        else {
+            dy += acceleration;
+        }
+        // console.log(dy);
+    }
+    animate();
+
+    // console.log(canvas,c);
+
+    // for multiple balls
+
+ 
+
+
+</script>
+
+</html>
