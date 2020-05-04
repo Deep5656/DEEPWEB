@@ -1,8 +1,9 @@
 class Book {
-    constructor(name, author, type) {
+    constructor(name, author, type,removeBook) {
         this.name = name;
         this.author = author;
         this.type = type;
+        this.removeBook = removeBook;
     }
 
 }
@@ -14,13 +15,7 @@ class Display {
          
         let tableBody = document.getElementById('tableBody');
         let uiString = ` <tr>
-                        <td>
-                            <div class="form-group row">
-                            <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary" onclick="removeBook()">REMOVE BOOK</button>
-                            </div>
-                            </div>
-                        </td>
+                        <td>${book.removeBook}</td>
                         <td>${book.name}</td>
                         <td>${book.author}</td>
                         <td>${book.type}</td>
@@ -28,10 +23,15 @@ class Display {
         tableBody.innerHTML += uiString;
 
        
+    }
+    removeBook(){
+        document.querySelector('#tableBody').addEventListener('click', (e) => {
+            console.log(e.target);
+            //  del(e.target);
+            e.target.parentElement.remove();
 
-      
-       
-       
+        }
+        )
     }
     
  
@@ -62,20 +62,21 @@ class Display {
     }
 
 }
-function removeBook() {
+// function removeBook() {
     
-   document.querySelector('#tableBody').addEventListener('click',(e)=>
-   {
-       console.log(e.target);
-     del(e.target);
+//    document.querySelector('#tableBody').addEventListener('click',(e)=>
+//    {
+//        console.log(e.target);
+//     //  del(e.target);
+//     e.target.parentElement.remove();
        
-   }
-   )
+//    }
+//    )
   
-}
-function del(del) {
-    del.parentElement.remove();
-}
+//  }
+// function del(del) {
+//     del.parentElement.remove();
+// }
 
 
 
@@ -96,6 +97,7 @@ function libraryFormSubmit(e) {
     let fiction = document.getElementById('fiction');
     let programming = document.getElementById('programming');
     let mythology = document.getElementById('mythology');
+    let removeBook = 'REMOVE BOOK';
     if (fiction.checked) {
         type = fiction.value;
     }
