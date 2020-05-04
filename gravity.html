@@ -30,13 +30,14 @@ window.addEventListener('resize',()=>{
     canvas.height = window.innerHeight;
 })
 
-       function balls(x,y,radius,dy,fraction,acceleration) {
+       function balls(x,y,radius,dy,fraction,acceleration,dx) {
            this.x = x;
            this.y = y;
            this.radius = radius;
            this.dy = dy
            this.fraction = fraction;
            this.acceleration = acceleration;
+           this.dx =2;
            this.color = colorArray[Math.floor(Math.random()*4)]; 
             this.draw = () => {
                 c.beginPath();
@@ -48,6 +49,8 @@ window.addEventListener('resize',()=>{
                 this.y += this.dy;
                 if(this.y + this.radius>innerHeight-30){
                     this.dy = -this.dy*this.fraction;
+                   
+                   
                 }else{
                     this.dy+=this.acceleration;
                 }
@@ -61,7 +64,7 @@ window.addEventListener('resize',()=>{
         for(let i =0; i<500 ;i++){
             let x = Math.random()*innerWidth;
             let y = Math.random()*innerHeight-200;
-            let radius = 20;
+            let radius = Math.random()*20+5;
             let dy = Math.random()*2;
             let fraction = 0.9;
             let acceleration = 0.9;
