@@ -114,6 +114,7 @@ function libraryFormSubmit(e) {
     if (display1.validate(book)) {
         display1.add(book);
         display1.clear();
+        display1.removeBook();
         display1.show('success', 'your book added successfully');
     }
     else {
