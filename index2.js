@@ -107,7 +107,7 @@ function libraryFormSubmit(e) {
     else if (mythology.checked) {
         type = mythology.value;
     }
-    let book = new Book(name, author, type);
+    let book = new Book(name, author, type,removeBook);
     console.log(book);
     let display1 = new Display();
     
