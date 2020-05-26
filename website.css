@@ -381,6 +381,11 @@ footer{
   border-radius: 8px;
 	
 }
+.room:hover{
+    
+    width:38%;
+   
+}
 #box-heading{
   font-size: 15px;
 }
@@ -450,7 +455,7 @@ footer{
 #name{
   background: #e8491d;
   width: 100%;
-  height: px;
+  
   text-decoration: none;
   margin-bottom: 25px;
  
