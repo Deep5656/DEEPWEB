@@ -5,5 +5,11 @@ logo.style = 'height: 40px; border-radius:50%; position: absolute;top: 32px;left
 // console.log(logo);
 if(document.body.clientWidth<768){
     logo.style = 'height:0px;width:0px';
-    console.log('deep');
+    // console.log('deep');
+    let canvasView = document.getElementById('canvas')
+    canvasView.style = 'display:none';
+    console.log(canvasView); 
 }
+
+//for canvas in mobile view.
+
