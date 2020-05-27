@@ -234,7 +234,9 @@ footer{
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  /* margin: 10px; */
   border-bottom: 1px solid rgb(100,100,100,0.9);
+  list-style: none;
 }
 
 .sidenav a {
@@ -244,6 +246,7 @@ footer{
   color: #818181;
   display: block;
   transition: 0.3s;
+  margin: 10px;
 }
 
 .sidenav a:hover {
@@ -340,137 +343,8 @@ footer{
   top:-380px;
 }
 
-@media(max-width:768px){
-  header #branding,
-  header nav,
-  #newsletter h1,
-  #newsletter form{
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-  
-  header nav li{
-    display: none;
-  }
- 
-  #newsletter button{
-    display: block;
-    width:100%;
-  }
-  #newsletter form input[type="email"]{
-    width:100%;
-    margin-bottom:5px;
-  }
-  #showcase{
-    min-height: 550px;
-    background: url('hood-azalaka.jpg');
-   background-size: 100%;
-    text-align: center;
-    color:white;
-}
-#showcase h1{
-    margin-top: 10px;
-    font-size: 55px;
-    margin-bottom:10px;
-}
-#showcase p{
-    font-size: 20px;
-    margin-top: 300px;
-}
-.profile{
-  height:410px;
-  width:100%;
-  background:#aaa;
-  background:url('messi\ .jpg');
-   background: cover;
-  background-position:center ;
-  background-size:110%;}
-
-.room{
-  display: block;
-  width: 35%;
-	/* background: #354243; */
-	line-height:32px;
-	text-indent:18px;
-	margin:20px;
-	transform:scale(0.95);
-	transition:.5s;
-  border:4px solid white;
-  border-radius: 8px;
-	
-}
-.room:hover{
-    
-    width:38%;
-   
-}
-#box-heading{
-  font-size: 15px;
-}
-#ball{
-  display: none;
-}
-#ball-1{
-  display: none;
-}
-#ball-2{
-  display:none;
-}
-#ball-3{
-  display: none;
-}
-#social-media{
-  height:100px;
-  width:27%;
-  background:#3b5998;
-  border-bottom: white 3px solid;
-}
-#social-media1{
-  height:100px;
-  width:27%;
-  background: #211f1f;
-  border-bottom: white 3px solid;
-}
-#social-media2{ 
-  height:100px;
-  width:27%;
-  background:#1DA1F2;
-  border-bottom: white 3px solid;
-}
-#social-media3{
-  height:100px;
-  width:27%;
-  background: #f80759;
-  border-bottom: white 3px solid;
-}
-#social-media:hover{
-  width:35%;
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
-  transition: 0.2s;
-}
-#social-media1:hover{
-  width:35%;
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
-  transition: 0.2s;
-}
-#social-media2:hover{
-  width:35%;
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
-  transition: 0.2s;
-}
-#social-media3:hover{
-  width:35%;
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
-  transition: 0.2s;
-}
 
 
-}
 #name{
   background: #14A098;
   width: 100%;
@@ -498,17 +372,7 @@ footer{
 .feedback:hover{
   background:#CB2D6F;
 }
-@media(max-width:768px){
-  .feedback{
-  background:#e8491d;
-  border: none;
- 
-  color: whitesmoke;
-}
 
-
-
-}
 #navbtn{
   display: inline;
 }
@@ -524,6 +388,12 @@ footer{
   width: 100%;
    /* background: url('deepweb logo.png') no-repeat center center fixed;  */
   
+}
+.development{
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Quiksand',sans-serif;
+  color: whitesmoke;
 }
 #logoimage{
   width: 100%;

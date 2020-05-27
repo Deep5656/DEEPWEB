@@ -112,6 +112,7 @@ ul li:hover
   transition: 0.5s;
   padding-top: 60px;
   border-bottom: 1px solid rgb(100,100,100,0.9);
+  list-style: none`;
 }
 
 .sidenav a {
@@ -221,4 +222,10 @@ section{
   position: absolute;
   display: inline;
   top: 10px;
+}
+.development{
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Quiksand',sans-serif;
+  color: whitesmoke;
 }
