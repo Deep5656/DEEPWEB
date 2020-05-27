@@ -273,8 +273,9 @@ footer{
 }
 #profilepic{
   height: 103%;
+  /* width: 50%; */
   position: relative;
-  left: 8%;
+  left: 110px;
   top: 4px;
 }
 .socialmedia{
@@ -513,7 +514,7 @@ footer{
 }
 
 .container2{
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   background: url('youtube-banner-maker-for-a-game-streaming-channel-2450d\ \(2\).png')no-repeat center center fixed; 
   background-size: cover;
