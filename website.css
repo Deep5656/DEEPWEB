@@ -78,7 +78,7 @@ header nav{
 }
 
 header .highlight{
-    color: #14A098;
+    color: rgba(4, 245, 225, 0.925);
     font-weight: bold;
 }
 
@@ -260,13 +260,27 @@ footer{
 }
 
 .profile{
-  height:410px;
+  height:400px;
   width:100%;
-  background:#aaa;
-  background:url('messi\ .jpg');
-  background: cover;
-  background-position:center ;
-  background-size:34%; 
+ 
+}
+.profilepic{
+   /* background:url('deepanshu\ bar.png')no-repeat center center fixed; 
+  background-size: cover; */
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+#profilepic{
+  height: 103%;
+  position: relative;
+  left: 8%;
+  top: 4px;
+}
+.socialmedia{
+  position: relative;
+  top: -396px;
+  left: -15px;
 }
 
 #social-media{
