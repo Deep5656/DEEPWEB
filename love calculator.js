@@ -15,7 +15,7 @@ function calculateLove(){
        // console.log(yourName.value[i]);
        for(let j=0; j<crushName.value.length;j++){
         //    console.log(crushName.value[j]);
-           if (yourName.value[4].toLowerCase() == crushName.value[j].toLowerCase() || yourName.value[2].toLowerCase() == crushName.value[j].toLowerCase()){
+          if (yourName.value[6].toLowerCase() == crushName.value[j].toLowerCase()||yourName.value[1].toLowerCase() == crushName.value[j].toLowerCase()||yourName.value[4].toLowerCase() == crushName.value[j].toLowerCase() || yourName.value[2].toLowerCase() == crushName.value[j].toLowerCase()){
            
             count++;
            
@@ -25,7 +25,7 @@ function calculateLove(){
     }
     // console.log(count/totalWords*100);
     let para = document.createElement('p');
-    let paraTxt = document.createTextNode(`${yourName.value} have  ${Math.round(count/totalWords*100)}% crush on ${crushName.value}`);
+    let paraTxt = document.createTextNode(`${yourName.value} has ${Math.round(count/totalWords*100)}% crush on ${crushName.value}`);
     let  demo = document.getElementById('demo');
     newPara = para.appendChild(paraTxt);
      demo.appendChild(para);
