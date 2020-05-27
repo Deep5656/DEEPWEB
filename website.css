@@ -346,7 +346,7 @@ footer{
 
 
 #name{
-  background: #14A098;
+  background: rgb(206, 32, 69);
   width: 100%;
   
   text-decoration: none;
@@ -354,7 +354,7 @@ footer{
  
 }
 #name:hover{
-  background: #CB2D6F;
+  background: #14A098;
 }
 #writting{
   font-size: 30px;
