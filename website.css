@@ -487,4 +487,7 @@ header #branding h1{
 #box-heading{
   color:black;
 }
+#canvas{
+  display:none;
+}
 }
