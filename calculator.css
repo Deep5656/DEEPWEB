@@ -30,7 +30,7 @@
     border-color:black;
 }
 body{
-   background:linear-gradient(black,skyblue,pink)
+   background:linear-gradient(grey,skyblue,pink)
 }
 form{
     position: relative;
