@@ -15,25 +15,25 @@ body{
 }
 /*global*/
 .container{
-    width:80%;
+    width:85%;
     margin: auto;
     overflow: hidden;
 }
-.food{
+/* .food{
     background:#e8491d;
-}
+} */
 ul{
     margin: 0;
     padding: 0;
 }
 
-.button_1{
+/* .button_1{
     height:25px;
     background: #e8491d;
     border:0;
     padding-left: 20px;
     padding-right:20px;
-    color:#ffffff;}
+    color:#ffffff;} */
 /*header*/
 header{
     /* z-index: 10; */
@@ -132,14 +132,14 @@ footer{
     /* position:sticky; */
     /* top:0.25rem; */
      border-bottom: #14A098 2px solid;
-     border-top: #14A098 2px solid;
+     /* border-top: #14A098 2px solid; */
     
     
 }
-#aman{
+/* #aman{
     width:50%;
     background:#e8491d;
-}
+} */
 #float{
     float:left;
     width:40%;
@@ -157,13 +157,13 @@ footer{
 .form{
     color:#ffffff;
 }
-.button{
+/* .button{
     background:#e8491d;
     border:0;
     padding:5px;
     margin:2px;
     width:80px;
-}
+} */
 #sidebar{
   width:40%;
   float:right;
@@ -195,10 +195,13 @@ footer{
    
 }
 #boxes{
+
+
+  padding: 10px;
   display:flex;
   flex-wrap: wrap;
   position: absolute;
-  top: 25%;
+  top: 20%;
   overflow:scroll;
   width:100%;
   height:570px;
@@ -250,7 +253,7 @@ footer{
 }
 
 .sidenav a:hover {
-  color: #CB2D6F;
+  color: whitesmoke;
 }
 
 .sidenav .closebtn {
@@ -278,7 +281,7 @@ footer{
   height: 103%;
   width: 90%;
   position: relative;
-  left: 110px;
+  left: 90px;
   top: 4px;
 }
 .socialmedia{
@@ -289,25 +292,25 @@ footer{
 
 #social-media{
   height:100px;
-  width:9%;
+  width:5%;
   background:#3b5998;
   border-bottom: white 3px solid;
 }
 #social-media1{
   height:100px;
-  width:9%;
+  width:5%;
   background: #211f1f;
   border-bottom: white 3px solid;
 }
 #social-media2{ 
   height:100px;
-  width:9%;
+  width:5%;
   background:#1DA1F2;
   border-bottom: 3px solid white;
 }
 #social-media3{
   height:100px;
-  width:9%;
+  width:5%;
   background: #f80759;
   border-bottom: white 3px solid;
 }
@@ -400,3 +403,72 @@ footer{
   height: 85vh;
 }
 
+ 
+/* #canvas{
+   overflow: hidden;  
+
+
+
+
+   /* for mobile view */
+
+
+@media(max-width:768px){
+header nav{
+    display:none;
+}
+header #branding h1{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+.container2{
+  background-attachment: fixed;
+  background: url('youtube-banner-maker-for-a-game-streaming-channel-2450d\ \(2\).png')no-repeat center center fixed; 
+}
+.containerimage{
+  height: 100%;
+  width: 100%;
+ /* background: url('deepweb logo.png') no-repeat center center fixed;  */
+  
+}
+#profilepic{
+  height: 103%;
+  width: 90%;
+  position: relative;
+  left: 30px;
+  top: 4px;
+}
+.feedback{
+  background:#14A098;
+  border: none;
+  color: whitesmoke;
+  text-decoration: none;
+  width: 100%;
+}
+#social-media{
+  height:100px;
+  width:15%;
+  background:#3b5998;
+  border-bottom: white 3px solid;
+}
+#social-media1{
+  height:100px;
+  width:15%;
+  background: #211f1f;
+  border-bottom: white 3px solid;
+}
+#social-media2{ 
+  height:100px;
+  width:15%;
+  background:#1DA1F2;
+  border-bottom: 3px solid white;
+}
+#social-media3{
+  height:100px;
+  width:15%;
+  background: #f80759;
+  border-bottom: white 3px solid;
+}
+
+}

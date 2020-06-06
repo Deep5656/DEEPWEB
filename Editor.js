@@ -1,27 +1,11 @@
-// console.log('deepanshu katiyar');
 
-
-// function func1(){
-//     let select = document.getElementById('frame');
-//     console.log(select.options[select.selectedIndex].value);
-// }
 
 // function for square
 let defaultSquareId, newSquareId, defaultTxtId, newTxtId, defaultImageId,newImageId,defaulth3id,newh3id;
 
 
 
-//grabed the select option.
-// let select = document.getElementById('frame');
-// console.log(select);
-// select.addEventListener('click', () => {
-//     let selectedVal = select.checked;
-//     console.log(selectedVal.value);
-// window.addEventListener('mousemove',()=>{
-//     console.log('deepanshu katiyar');
 
-//     // .classList.add('input');
-// })
 
 
 // whole functionality of square
@@ -389,33 +373,42 @@ function image() {
 }
 
 
-// let container = document.getElementById('container');
-// // console.log(container);
-// container.addEventListener('click',(e)=>{
-//     // console.log(e.target.style.borderRadius);
-//     //   console.log(parseFloat(e.target.style.transform,10));
+//for changement in frames after ones they made....
 
-//     let squareInput1 = document.getElementsByTagName('input');
-//     //  console.log(squareInput, 'here are all the input tags');
-//     //  console.log(heightInput.length);
-//     for (let i = 0; i < squareInput1.length; i++) {
-//         //  console.log(squareInput[i].value);
-//         squareInput1[i]         // console.log('Jai Hanuman');
-//             // let div = document.getElementById('square');
-//         //    console.log(squareInput[i])
 
-//     }
-//      squareInput1[3].value = parseInt(e.target.style.height,10);
-//      squareInput1[4].value = parseInt(e.target.style.width,10);
-//      squareInput1[5].value = parseInt(e.target.style.left,10);
-//      squareInput1[6].value = parseInt(e.target.style.top,10);
-//      squareInput1[7].value = e.target.style.background;
-//      squareInput1[8].value = e.target.style.border = '2px solid skyblue';
-//      squareInput1[9].value = parseInt(e.target.style.borderRadius,10);
-//     //  squareInput[10].value = e.target.style.transform;
-//     //  squareInput[3].value = parseInt(e.target.style.height,10);
+ let container = document.getElementById('container');
+ // console.log(container);
+ container.addEventListener('click',(e)=>{
+     // console.log(e.target.style.borderRadius);
+     //   console.log(parseFloat(e.target.style.transform,10));
 
-// })
+     let squareInput1 = document.getElementsByTagName('input');
+     //  console.log(squareInput, 'here are all the input tags');
+     //  console.log(heightInput.length);
+     for (let i = 0; i < squareInput1.length; i++) {
+         //  console.log(squareInput[i].value);
+         squareInput1[i]         // console.log('Jai Hanuman');
+             // let div = document.getElementById('square');
+         //    console.log(squareInput[i])
+
+     }
+      squareInput1[3].value = parseInt(e.target.style.height,10);
+      squareInput1[4].value = parseInt(e.target.style.width,10);
+      squareInput1[5].value = parseInt(e.target.style.left,10);
+      squareInput1[6].value = parseInt(e.target.style.top,10);
+      squareInput1[7].value = e.target.style.background;
+      squareInput1[8].value = e.target.style.border = 'none';
+      squareInput1[9].value = parseInt(e.target.style.borderRadius,10);
+     //  squareInput[10].value = e.target.style.transform;
+     //  squareInput[3].value = parseInt(e.target.style.height,10);
+
+ });
+
+
+ container.addEventListener('dblclick',(elem)=>{
+     console.log('deepanshu katiyar kat code');
+    //  console.log(<i class='fas fa-cut'></i>);
+ })
 
 
 
