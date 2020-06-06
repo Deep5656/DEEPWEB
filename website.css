@@ -414,6 +414,7 @@ footer{
 
 
 @media(max-width:768px){
+
 header nav{
     display:none;
 }
@@ -447,28 +448,42 @@ header #branding h1{
   width: 100%;
 }
 #social-media{
-  height:100px;
   width:15%;
-  background:#3b5998;
-  border-bottom: white 3px solid;
+ 
 }
 #social-media1{
-  height:100px;
   width:15%;
-  background: #211f1f;
-  border-bottom: white 3px solid;
-}
+  }
 #social-media2{ 
-  height:100px;
   width:15%;
-  background:#1DA1F2;
-  border-bottom: 3px solid white;
+ 
 }
 #social-media3{
-  height:100px;
   width:15%;
-  background: #f80759;
-  border-bottom: white 3px solid;
-}
+  }
+#boxes{
 
+
+  padding: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 20%;
+  overflow:scroll;
+  width:100%;
+  height:570px;
+  /* width: 100%; */
+}
+.room{
+  width: 80%;
+  padding: 0px;
+  margin:10px;
+  border:2px solid black;	
+}
+.room:hover{
+  width:85%;
+}
+#box-heading{
+  color:black;
+}
 }

@@ -40,3 +40,29 @@ table{
     position:relative;
     top:100px
 }
+
+@media(max-width:1024px){
+    #form{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    #table{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        height:400px;
+        width: 800px;
+    }
+    .button{
+        width:200px;
+        height:200px;
+        font-size: 150px;
+        padding: 10px;
+    }
+    .textview{
+        width:800px;
+        height: 200px;
+        font-size: 150px;
+    }
+}
