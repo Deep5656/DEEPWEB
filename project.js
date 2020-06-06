@@ -12,6 +12,6 @@ if(document.body.clientWidth<768){
     canvasView.style = 'display:none';
     console.log(canvasView); 
 }
-
+canvasView.style='position:fixed;top:100px'
 
 
