@@ -451,7 +451,24 @@ container.addEventListener('mouseup', (e) => {
     }
 });
 
+// for templates.....
 
+
+let templatebtn = document.getElementById('templatebtn')
+templatebtn.addEventListener('click',()=>{
+    console.log('template btn pressed');
+    const xhr =new XMLHttpRequest;
+      xhr.open('GET','birds.html',true);
+      xhr.onload=function(){
+          if(this.status ==200){
+              console.log(this.responseText);
+          }else{
+              console.log('some error');
+          }
+      }
+      xhr.send();
+
+})
 
 
 
