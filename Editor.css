@@ -17,23 +17,24 @@ h2{
 }
 #heightContainer{
     color:white;
-    /* margin:20px; */
     padding: 0px;
     text-transform: capitalize;
     font-size:15px;
     z-index: 10;
     position: sticky;
     top:60px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;    
 }
 .input{
-    margin: 5px;
-    padding: 0px;
+    margin: 0px 5px;
+    padding: 5px;
     width: 50px;
-    height: 18px;
-    border-radius:8px;
+    height: 10px;
+    border-radius:10px;
 }
 .container{
-    overflow: scroll;
     z-index: 1;
     height:100vh;
     overflow: scroll;
