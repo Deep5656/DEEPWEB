@@ -9,6 +9,7 @@ squarebtn.addEventListener('click', () => {
         let squares = document.getElementById('heightContainer');
 
         let html = ` 
+    <button id = 'squarebtn1' onclick="newsquare()">New Box</button>&nbsp;
     height:
     <input type="number" class='input' placeholder="Height">
     Width:
@@ -26,7 +27,7 @@ squarebtn.addEventListener('click', () => {
     Rotate:
     <input type="number" class='input' placeholder="number">
 
-    <button id = 'squarebtn1' onclick="newsquare()">New Box</button>`
+    `
 
         //A div where all the option or navigation bar will be shown.
 
@@ -70,7 +71,8 @@ imageBtn.addEventListener('click', () => {
     if (imageBtn.checked) {
         image();
         let images = document.getElementById('heightContainer');
-        let imagehtml = ` 
+        let imagehtml = `
+    <button id = 'imagebtn1' onclick="newImage()">New Image</button>&nbsp;     
     Height:
     <input type="number" class='input' placeholder="Height">
     Width:
@@ -89,7 +91,7 @@ imageBtn.addEventListener('click', () => {
     <input type="number" class="input" placeholder='number'>
     Rotate:
     <input type="number" class="input" placeholder='number'>
-    <button id = 'imagebtn1' onclick="newImage()">New Image</button>`
+    `
         images.innerHTML = imagehtml;
         let imageInput = document.getElementsByTagName('input');
         for (let i = 0; i < imageInput.length; i++) {
@@ -131,6 +133,7 @@ textBtn.addEventListener('click', () => {
         text();
         let texts = document.getElementById('heightContainer');
         let texthtml = ` 
+    <button id = 'textbtn1' onclick="newTxt()">New Text</button>&nbsp;
     font-size:
     <input type="number" class='input' placeholder="Height">
     Width:
@@ -151,7 +154,7 @@ textBtn.addEventListener('click', () => {
     <input type="number" class="input" placeholder='number'>
     Font-family:
     <input type="text" class="input" placeholder='font-family'>
-    <button id = 'textbtn1' onclick="newTxt()">New Text</button>`
+   `
 
         texts.innerHTML = texthtml;
         texts.setAttribute('style', 'overflow-x:scroll;overflow-y:hidden;white-space:nowrap;display:flex;flex-direction:row');
