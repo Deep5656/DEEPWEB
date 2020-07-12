@@ -71,7 +71,7 @@ imageBtn.addEventListener('click', () => {
         image();
         let images = document.getElementById('heightContainer');
         let imagehtml = ` 
-    Hight:
+    Height:
     <input type="number" class='input' placeholder="Height">
     Width:
     <input type="number" class='input' placeholder="Width">
